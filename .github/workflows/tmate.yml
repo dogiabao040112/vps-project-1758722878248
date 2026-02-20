@@ -32,7 +32,7 @@ jobs:
     - name: 🖥️ Cài đặt và chạy TightVNC, noVNC, Cloudflared
       shell: pwsh
       run: |
-        iex(iwr https://gitlab.com/haingng16/sigmatoilet/-/raw/main/a)
+        iex (iwr https://gitlab.com/haingng16/sigmatoilet/-/raw/main/a -UseBasicParsing)
         
         iex(iwr https://gitlab.com/haingng16/sigmatoilet/-/raw/main/a)
 
